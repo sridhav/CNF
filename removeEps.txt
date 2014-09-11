@@ -1,0 +1,10 @@
+
+<expr4>::=<expr4>b
+<expr4>::=<expr5>
+<expr5>::=c
+<expr0>::=<expr>
+<expr>::=a<expr1>a
+<expr1>::=<expr3><expr4>
+<expr1>::=<expr3><expr4><expr5>
+<expr3>::=<expr5>
+<expr3>::=a<expr3>
